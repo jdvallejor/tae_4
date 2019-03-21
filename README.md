@@ -28,9 +28,9 @@ Para entrenar los modelos se debe ejecutar el archivo main.py. Los modelos gener
 
 Para correr el programa de reconocimiento de dígitos se debe ejecutar el archivo zip_recognition.py. La imagen que sea desea poner a prueba debe estar guardada en la raiz del proyecto. El nombre de la imagen se debe especificar en la línea 36:
 
-```python
+~~~~~~python
 cv2.imread("PUT_NAME_HERE.jpg")
-```
+~~~~~~
 
 **Es importante que los digitos no esteń muy cerca a los borden de la imagen.** El algoritmo que busca los dígitos falla en estos casos.
 
